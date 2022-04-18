@@ -1,0 +1,49 @@
+.header-img {
+  background-image: url("../images/header.png");
+  background-size: cover;
+  height: calc(100vh - 86px);
+}
+
+#cursor {
+  border: 2px solid;
+  display: block;
+  width: 70px;
+}
+
+#about-us {
+  background-color: #584dfe;
+  position: relative;
+  top: -20px;
+}
+
+#vision {
+  border: 0;
+}
+
+#values .value-title {
+  background-color: #584dfe;
+  width: 130px;
+  height: 130px;
+  line-height: 130px;
+  position: relative;
+  z-index: 100;
+}
+
+#values .value-text {
+  height: 250px;
+  padding: 90px 10px 25px 10px;
+  position: relative;
+  top: -65px;
+  z-index: 1;
+}
+
+#values .list-group-item {
+  border: 0;
+  max-width: 250px;
+}
+
+.footer-link {
+  border: 0;
+  background-color: inherit;
+  padding-left: 0;
+}
